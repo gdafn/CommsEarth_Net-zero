@@ -1,0 +1,64 @@
+﻿Model,Scenario,Region,Variable,Unit,2100
+IMAGE,NDC,World,Exceedance Probability|below 1.5C,< 1.5°C,0
+IMAGE,NDC,World,Exceedance Probability|below 1.75C,1.5-1.75°C,0
+IMAGE,NDC,World,Exceedance Probability|below 2.0C,1.75-2.0°C,2
+IMAGE,NDC,World,Exceedance Probability|below 2.5C,2.0-2.5°C,31
+IMAGE,NDC,World,Exceedance Probability|below 3C,2.5-3.0°C,36
+IMAGE,NDC,World,Exceedance Probability|below 4C,3.0-4.0°C,27
+IMAGE,NDC,World,Exceedance Probability|surpass 4C,> 4.0°C,4
+IMAGE,CurPol,World,Exceedance Probability|below 1.5C,< 1.5°C,0
+IMAGE,CurPol,World,Exceedance Probability|below 1.75C,1.5-1.75°C,0
+IMAGE,CurPol,World,Exceedance Probability|below 2.0C,1.75-2.0°C,0
+IMAGE,CurPol,World,Exceedance Probability|below 2.5C,2.0-2.5°C,1
+IMAGE,CurPol,World,Exceedance Probability|below 3C,2.5-3.0°C,26
+IMAGE,CurPol,World,Exceedance Probability|below 4C,3.0-4.0°C,57
+IMAGE,CurPol,World,Exceedance Probability|surpass 4C,> 4.0°C,16
+IMAGE,NZ,World,Exceedance Probability|below 1.5C,< 1.5°C,16
+IMAGE,NZ,World,Exceedance Probability|below 1.75C,1.5-1.75°C,32
+IMAGE,NZ,World,Exceedance Probability|below 2.0C,1.75-2.0°C,23
+IMAGE,NZ,World,Exceedance Probability|below 2.5C,2.0-2.5°C,22
+IMAGE,NZ,World,Exceedance Probability|below 3C,2.5-3.0°C,6
+IMAGE,NZ,World,Exceedance Probability|below 4C,3.0-4.0°C,1
+IMAGE,NZ,World,Exceedance Probability|surpass 4C,> 4.0°C,0
+IMAGE,NZ-Al,World,Exceedance Probability|below 1.5C,< 1.5°C,24
+IMAGE,NZ-Al,World,Exceedance Probability|below 1.75C,1.5-1.75°C,28
+IMAGE,NZ-Al,World,Exceedance Probability|below 2.0C,1.75-2.0°C,26
+IMAGE,NZ-Al,World,Exceedance Probability|below 2.5C,2.0-2.5°C,16
+IMAGE,NZ-Al,World,Exceedance Probability|below 3C,2.5-3.0°C,5
+IMAGE,NZ-Al,World,Exceedance Probability|below 4C,3.0-4.0°C,1
+IMAGE,NZ-Al,World,Exceedance Probability|surpass 4C,> 4.0°C,0
+IMAGE,NZ-Br,World,Exceedance Probability|below 1.5C,< 1.5°C,27
+IMAGE,NZ-Br,World,Exceedance Probability|below 1.75C,1.5-1.75°C,34
+IMAGE,NZ-Br,World,Exceedance Probability|below 2.0C,1.75-2.0°C,24
+IMAGE,NZ-Br,World,Exceedance Probability|below 2.5C,2.0-2.50°C,13
+IMAGE,NZ-Br,World,Exceedance Probability|below 3C,2.5-3.0°C,2
+IMAGE,NZ-Br,World,Exceedance Probability|below 4C,3.0-4.0°C,0
+IMAGE,NZ-Br,World,Exceedance Probability|surpass 4C,> 4.0°C,0
+IMAGE,1.5C,World,Exceedance Probability|below 1.5C,< 1.5°C,54
+IMAGE,1.5C,World,Exceedance Probability|below 1.75C,1.5-1.75°C,33
+IMAGE,1.5C,World,Exceedance Probability|below 2.0C,1.75-2.0°C,10
+IMAGE,1.5C,World,Exceedance Probability|below 2.5C,2.0-2.50°C,3
+IMAGE,1.5C,World,Exceedance Probability|below 3C,2.5-3.0°C,2
+IMAGE,1.5C,World,Exceedance Probability|below 4C,3.0-4.0°C,0
+IMAGE,1.5C,World,Exceedance Probability|surpass 4C,> 4.0°C,0
+IMAGE,NZ-Str,World,Exceedance Probability|below 1.5C,< 1.5°C,29
+IMAGE,NZ-Str,World,Exceedance Probability|below 1.75C,1.5-1.75°C,39
+IMAGE,NZ-Str,World,Exceedance Probability|below 2.0C,1.75-2.0°C,20
+IMAGE,NZ-Str,World,Exceedance Probability|below 2.5C,2.0-2.50°C,10
+IMAGE,NZ-Str,World,Exceedance Probability|below 3C,2.5-3.0°C,2
+IMAGE,NZ-Str,World,Exceedance Probability|below 4C,3.0-4.0°C,0
+IMAGE,NZ-Str,World,Exceedance Probability|surpass 4C,> 4.0°C,0
+IMAGE,CurPol,World,Temperature|Global Mean,,3.478994
+IMAGE,NDC,World,Temperature|Global Mean,,2.849194
+IMAGE,NZ,World,Temperature|Global Mean,,1.941764
+IMAGE,NZ-Al,World,Temperature|Global Mean,,1.772294
+IMAGE,NZ-Br,World,Temperature|Global Mean,,1.621334
+IMAGE,NZ-Str,World,Temperature|Global Mean,,1.575784
+IMAGE,1.5C,World,Temperature|Global Mean,,1.410646
+IMAGE,CurPol,World,Temperature|Peak,,3.478994
+IMAGE,NDC,World,Temperature|Peak,,2.849194
+IMAGE,NZ,World,Temperature|Peak,,1.941764
+IMAGE,NZ-Al,World,Temperature|Peak,,1.772294
+IMAGE,NZ-Br,World,Temperature|Peak,,1.72
+IMAGE,NZ-Str,World,Temperature|Peak,,1.69
+IMAGE,1.5C,World,Temperature|Peak,,1.64
