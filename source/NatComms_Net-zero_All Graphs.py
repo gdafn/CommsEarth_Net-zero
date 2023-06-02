@@ -12,7 +12,7 @@ from matplotlib.patches import Patch
 colors = pyam.plotting.PYAM_COLORS
 pd.DataFrame({'name': list(colors.keys()), 'color': list(colors.values())})
 
-#GWP constants (100y, IPCC AR4)
+#GWP constants (100y, IPCC AR6)
 gwp_ch4 = 25
 gwp_hfc = 1430
 gwp_n2o = 298
@@ -61,7 +61,6 @@ df_nz.divide("Emissions|SF6 [kt CO\u2082eq]", 1000000, "Emissions|SF6 [Gt CO\u20
 Fgases_vars=["Emissions|HFC [Gt CO\u2082eq]", "Emissions|PFC [Gt CO\u2082eq]","Emissions|SF6 [Gt CO\u2082eq]"]
 df_nz.aggregate("Emissions|Fgases [Gt CO\u2082eq]", components=Fgases_vars, append=True)
 
-
 #Create energy intensity variables
 df_nz.divide("Primary Energy", "GDP|PPP", "Energy intensity|[EJ/billion 2010 USD]",ignore_units=True,append=True)
 df_nz.multiply("Energy intensity|[EJ/billion 2010 USD]", 1000, "Energy intensity|[MJ/2010 USD]",ignore_units=True,append=True)
@@ -97,7 +96,7 @@ var_primary=("CoalCCS", "Coal", "GasCCS", "Gas","Oil","OilCCS","Nuclear","Hydrop
 cmp = ListedColormap(['black', 'gray','#425563','#517891','darkblue','lawngreen','seagreen','pink','sienna','sandybrown','red','gold','darkgreen', 'darkkhaki'])
 
 '''
-#Plot Global GHG, mean temp increase (line graphs) & probabilistic temp projections (bar graphs) for all scenarios 
+#Plot Global GHG, mean temp increase (line graphs), probabilistic temp bands (bar graphs) and peak temps (dots) for all scenarios 
 '''
 color_map = {'CurPol': '#b0724e','NDC': '#f69320','NZ': 'lightsteelblue','NZ-Al': 'lightskyblue',
              'NZ-Br': '#448ee4','NZ-Str': '#0343df','1.5C': '#044a05', 'Historical':'black'}
