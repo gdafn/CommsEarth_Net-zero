@@ -9,6 +9,9 @@ from matplotlib.colors import ListedColormap
 from matplotlib.ticker import MaxNLocator
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
+# replace the current working directory to your relative folder
+os.chdir(".../.../[Graph code]")
+
 colors = pyam.plotting.PYAM_COLORS
 pd.DataFrame({'name': list(colors.keys()), 'color': list(colors.values())})
 
