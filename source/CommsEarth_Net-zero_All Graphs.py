@@ -23,8 +23,8 @@ gwp_pfc = 7390
 gwp_sf6 = 25200
 
 #Import data
-df_nz = pyam.IamDataFrame(data='NatComms_Net-zero_all data.csv')
-df_nz_mag = pyam.IamDataFrame(data='NatComms_Net-zero_MAGICC data.csv')
+df_nz = pyam.IamDataFrame(data='CommsEarth_Net-zero_all data.csv')
+df_nz_mag = pyam.IamDataFrame(data='CommsEarth_Net-zero_MAGICC data.csv')
 
 #Rename scenarios and regions for use later
 df_nz.rename(scenario={'GP_NDC2030': 'NDC', 'GP_CurPol': 'CurPol', 'SSP2_SPA2_19I_RE': '1.5C', 'NDC_NZ_Pledge': 'NDC-NZ',
